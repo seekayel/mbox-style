@@ -1,0 +1,13 @@
+[project]
+name = "mbox-style"
+version = "0.1.0"
+description = "Convert mbox inbox exports into fine-tuning datasets"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+mbox-to-dataset = "mbox_to_dataset:main"
+
+[tool.uv]
+package = true
